@@ -70,9 +70,9 @@ This project covers two major parts:
 
 
 ## Project Technologies
-   -- `MySQL — Database`
-   -- `FastAPI — Backend Framework`
-   -- `SQLAlchemy — ORM for database access`
-   -- `Uvicorn — ASGI Server`
-   -- `Pydantic — Data validation`
-   -- `Python 3.10+`
+- `MySQL — Database`
+- `FastAPI — Backend Framework`
+- `SQLAlchemy — ORM for database access`
+- `Uvicorn — ASGI Server`
+- `Pydantic — Data validation`
+- `Python 3.10+`
