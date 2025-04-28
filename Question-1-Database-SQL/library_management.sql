@@ -2,9 +2,6 @@
 -- Author: Kelvlin Kimotho Waruingi
 -- Date: 28/04/2025
 
--- Droping the database if exists
-DROP DATABASE IF EXISTS library_management;
-
 -- Creating my database
 CREATE DATABASE library_management;
 USE library_management;
