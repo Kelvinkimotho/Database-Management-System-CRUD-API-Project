@@ -51,18 +51,20 @@ This project covers two major parts:
 
 #### 1. Install dependencies
 
-cd Question-2-CRUD-API
-pip install -r requirements.txt
+- `Question-2-CRUD-API`
+- `pip install -r requirements.txt`
 
 ## 2. Setup MySQL Database
 
 ### Create the database by running:
 
- - mysql -u your_username -p < create_contactbook_db.sql
-
+ - `mysql -u root -p < create_contactbook_db.sql`
+![server running](Question-2-CRUD-API/screenshots/database.png)
 ## Start
- - uvicorn app.main:app --reload
+ - `uvicorn app.main:app --reload`
+ ![server running](Question-2-CRUD-API/screenshots/server_started.png)
  The API will run at: http://127.0.0.1:8000
+
 
 ## ERD Diagram
 
