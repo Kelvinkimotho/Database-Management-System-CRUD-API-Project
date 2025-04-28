@@ -10,7 +10,7 @@ class GroupCreate(GroupBase):
 class Group(GroupBase):
     group_id: int
 
-    class Config:
+    class Config: #
         orm_mode = True
 
 class ContactBase(BaseModel):
