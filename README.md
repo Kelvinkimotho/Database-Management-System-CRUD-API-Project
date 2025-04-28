@@ -60,32 +60,32 @@ This project covers two major parts:
 
  - `mysql -u root -p < create_contactbook_db.sql`
 ![server running](Question-2-CRUD-API/screenshots/database.png)
-## Start
+## Start the server
  - `uvicorn app.main:app --reload`
  ![server running](Question-2-CRUD-API/screenshots/server_started.png)
  The API will run at: http://127.0.0.1:8000
 
 
 ## Testing my api endpoints using curl
-- `Create a new group (e.g., hackers)`
+#### Create a new group (e.g., hackers)
  ![create new group](Question-2-CRUD-API/screenshots/create_group.png)
- 
-- `Get all groups`
+
+#### Get all groups
 ![get all groups](Question-2-CRUD-API/screenshots/get_all_groups.png)
 
-- `Create a new contact`
+#### Create a new contact
 ![create new contact](Question-2-CRUD-API/screenshots/create_new_contact.png)
 
-- `Get all contacts`
+#### Get all contacts
 ![get all contacts](Question-2-CRUD-API/screenshots/get_all_contacts.png)
 
-- `Get a contact by ID (e.g., id=1)`
+#### Get a contact by ID (e.g., id=1)
 ![get contact by id](Question-2-CRUD-API/screenshots/get_contact_by_id.png)
 
-- `Update a contact`
+#### Update a contact
 ![update](Question-2-CRUD-API/screenshots/update_contact.png)
 
-- ` Delete a contact`
+#### Delete a contact
 ![delete](Question-2-CRUD-API/screenshots/delete.png)
 
 ## Project Technologies
