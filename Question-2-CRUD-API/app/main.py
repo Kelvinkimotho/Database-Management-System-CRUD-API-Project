@@ -7,7 +7,7 @@ Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-# GROUPS
+# groups
 
 @app.post("/groups/", response_model=schemas.Group)
 def create_group(group: schemas.GroupCreate, db: Session = Depends(get_db)):
@@ -17,7 +17,7 @@ def create_group(group: schemas.GroupCreate, db: Session = Depends(get_db)):
 def read_groups(db: Session = Depends(get_db)):
     return crud.get_groups(db)
 
-# CONTACTS
+# contacts
 
 @app.post("/contacts/", response_model=schemas.Contact)
 def create_contact(contact: schemas.ContactCreate, db: Session = Depends(get_db)):
