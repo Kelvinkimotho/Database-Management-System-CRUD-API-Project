@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from app import models, schemas
 
-# GROUPS
+# groups
 
 def create_group(db: Session, group: schemas.GroupCreate):
     db_group = models.Group(**group.dict())
