@@ -18,7 +18,7 @@ This project covers two major parts:
 - Constraints such as **Primary Keys**, **Foreign Keys**, **Unique**, **Not Null**.
 
 ### Entity Relation Diagram
-![Alt text here](Question-1-Database-SQL/screenshots/Live_Database.png.png)
+![Alt text here](Question-1-Database-SQL/screenshots/Live_Database.png)
 
 ### 📂 Files
 
