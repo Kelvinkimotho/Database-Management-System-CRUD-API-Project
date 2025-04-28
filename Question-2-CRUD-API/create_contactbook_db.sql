@@ -19,7 +19,7 @@ CREATE TABLE Contacts (
     FOREIGN KEY (group_id) REFERENCES `Groups`(group_id)
 );
 
--- Sample Data
+-- Sample Dataa
 INSERT INTO `Groups` (group_name) VALUES
 ('Family'),
 ('Friends'),
